@@ -1,0 +1,35 @@
+RP 3D-Scanner的固件依赖于Arduino-Lite的代码库和它的编译系统。
+请按照下面的步骤来编译获得RP USB Connector的固件:
+
+> 从Google Code下载Arduino-Lite (如果您未曾做过这步)
+ 
+  Arduino-Lite的项目主页:
+     http://code.google.com/p/arduino-lite/
+
+  你可以在Downloads区域下载已经打包的zip文档或者直接用svn checkout出最新的版本来。
+
+> 安装配置Arduino-Lite (如果您未曾做过这步)
+  
+  安装过程是非常简单的，只要解压缩zip文档并且点击执行一个批处理文件即可
+
+  详细步骤请参照这篇文章:
+     http://www.robopeak.net/blog/?p=70
+
+> 将3d-scanner/复制到<Arduino-Lite>/sketch/的目录之下
+
+> 本固件也依赖AVR芯片上的SPI/Servo的驱动库，这些库尚未由RoboPeak公开发布。您需要提供一个类似的实现。
+
+> 进入<Arduino-Lite>/sketch/rp_usb_connector/目录，执行build.cmd即可编译出固件
+  另外，您也可以手工输入make命令来编译。方法是执行launchsh.cmd，您将会看到一个bash终端。
+
+
+-----
+Arduino-Lite是一个用于AVR设备的轻量级且高效的运行库，他基于Arduino项目的工作。
+
+您可以阅读下面的链接了解更多信息：
+  Arduino-Lite特点和原理介绍:
+         http://www.robopeak.net/blog/?p=42
+  Arduino-Lite的获取和使用:
+         http://www.robopeak.net/blog/?p=70
+  Arduino-Lite函数手册和开发参考:
+         http://www.robopeak.net/blog/?p=107

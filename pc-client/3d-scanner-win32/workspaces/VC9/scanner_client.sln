@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "scanner_client", "..\..\src\applet\bridge_extension\3dscanner\pc-client\win32\scanner_client.vcproj", "{15A5BE08-F9CD-4D88-A2DD-1E9073707699}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hidusb", "infra\hidusb\hidusb.vcproj", "{3249F700-2288-4F39-A98C-BE18192D7681}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15A5BE08-F9CD-4D88-A2DD-1E9073707699}.Debug|Win32.ActiveCfg = Debug|Win32
+		{15A5BE08-F9CD-4D88-A2DD-1E9073707699}.Debug|Win32.Build.0 = Debug|Win32
+		{15A5BE08-F9CD-4D88-A2DD-1E9073707699}.Release|Win32.ActiveCfg = Release|Win32
+		{15A5BE08-F9CD-4D88-A2DD-1E9073707699}.Release|Win32.Build.0 = Release|Win32
+		{3249F700-2288-4F39-A98C-BE18192D7681}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3249F700-2288-4F39-A98C-BE18192D7681}.Debug|Win32.Build.0 = Debug|Win32
+		{3249F700-2288-4F39-A98C-BE18192D7681}.Release|Win32.ActiveCfg = Release|Win32
+		{3249F700-2288-4F39-A98C-BE18192D7681}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

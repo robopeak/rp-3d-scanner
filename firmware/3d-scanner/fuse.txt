@@ -1,0 +1,2 @@
+Atmega88(PA) l: CE  h: DD  e: F9 *
+Atmega88(PA) with bootloader: l: CE  h: DD  e: F8
